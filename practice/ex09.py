@@ -8,4 +8,7 @@ for box in boxes:
 
     if width>50:
         big_boxes.append(box)
-        print(f"{box}")
+        
+
+print(big_boxes)
+

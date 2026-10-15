@@ -1,0 +1,5 @@
+counted = set()
+counted.add(7)
+counted.add(7)
+print(len(counted))
+print(7 in counted)
