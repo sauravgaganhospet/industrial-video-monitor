@@ -1,9 +1,8 @@
-positions= {5:23,3:24}
+positions= {1:120,2:340,3:95,4:76,5:88}
 
-print(f"the y of ID 2={positions[2]}\n")
+bottle_id=5
 
-positions[1]=150
-positions[4]=200
-
-for A_id, y in positions.items():
-    print(f"For ID {A_id} the value is {y}.\n")
+if bottle_id in positions:
+    print("seen before")
+else:
+    print("new bottle")
