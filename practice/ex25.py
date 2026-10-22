@@ -4,5 +4,4 @@ def crossed(prev_y, curr_y, line_y):
     else:
         return False
 
-
 print(crossed(280,320,300))
