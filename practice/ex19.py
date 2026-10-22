@@ -6,3 +6,5 @@ for bottle_id in curr:
     if bottle_id in prev:
         if curr[bottle_id]>=line_y and prev[bottle_id]<line_y:
             print(f"ID {bottle_id} passed.")
+        else:
+            print(f"ID {bottle_id} not passed")
